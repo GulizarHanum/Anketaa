@@ -27,8 +27,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
+  text-align: center;
+}
+
+.hr {
+  border-top: 1px solid black;
 }
 
 .bodyText {
@@ -80,11 +84,6 @@ select {
   bottom: 21px;
 }
 
-.headerText {
-  text-align: center;
-  position: absolute;
-}
-
 div.city {
   padding-top: 1px;
 }
@@ -116,9 +115,9 @@ button:hover {
   color: #fff;
   background-color: #4e4e4e;
   border-color: #4e4e4e;
+  transition: all 0.5s ease;
 }
 button:active {
   color: #fff;
   background-color: #4e4e4e;
-  border-color: #4e4e4e;
 }
