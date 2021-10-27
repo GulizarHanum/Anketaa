@@ -5,40 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <title>Анкета</title>
 </head>
 
 <body>
-    <form action="#" method="post">
-        <div class="anketa">
-            <div class="text">
-                <p>Ваше имя</p>
-                <input type="text" name="name" required />
-            </div>
-            <div class="text">Ваш возраст</div>
-            <input type="number" name="age" />
-            <div class="text">Ваш пол</div>
-            <p><input type="radio" name="sex" />Мужской</p>
-            <p><input type="radio" name="sex" />Женский</p>
-            <div class="text">Дата рождения</div>
-            <p><input type="date" name="date" /></p>
-            <div class="text city">Город проживания</div>
-            <select name="city" id="">
-                <option value="">Выберите город проживания</option>
-                <option value="sevastopol">Севастополь</option>
-                <option value="simferopol">Симферополь</option>
-                <option value="yalta">Ялта</option>
-            </select>
-            <div class="text">Нашите свой email</div>
-            <input type="email" name="email" />
-            <div class="text">Ваш номер телефона</div>
-            <input type="tel" name="tel" />
-            <div class="text">Ваши пожелания</div>
-            <textarea name="comment"></textarea>
-            <button>Отправить</button>
+    <div class="wrapper">
+        <div class="headerText">
+            <h1>Анкета</h1>
         </div>
-    </form>
+        <div class="bodyText">
+            <form action="#" method="post">
+                <div class=" text">
+                    <p>Ваше имя:</p>
+                    <input class="fields" type="text" name="name" required />
+                </div>
+                <div class="text">
+                    <p>Возраст:</p>
+                    <input class="fields" type="number" name="age" />
+                </div>
+                <div class="text">
+                    Пол:
+                    <input class="select" type="radio" name="sex">Мужской</input>
+                    <input class="select" type="radio" name="sex">Женский</input>
+                </div>
+                <div class="text">
+                    <p>Дата рождения:</p>
+                    <input class="fields" type="date" name="date" />
+                </div>
+                <div class="text">Город проживания:
+                    <select class="fields" name="city" id="">
+                        <option value="">Выберите город проживания</option>
+                        <option value="sevastopol">Севастополь</option>
+                        <option value="simferopol">Симферополь</option>
+                        <option value="yalta">Ялта</option>
+                    </select>
+                </div>
+                <div class="text">
+                    <p>Email:</p>
+                    <input class="fields" type="email" name="email" placeholder="name@yandex.ru" />
+                </div>
+                <div class="text">
+                    <p>Контактный номер телефона:</p>
+                    <input class="fields" type="tel" name="tel" placeholder="+7-(978)-831-81-46" />
+                </div>
+                <div class="comments">
+                    <p>Пожелания</p>
+                    <textarea name="comment"></textarea>
+                </div>
+                <div class="wrap">
+                    <button class="btn" type=" submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>

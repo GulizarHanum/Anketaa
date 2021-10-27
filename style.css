@@ -1,0 +1,124 @@
+body {
+  font-family: "Comfortaa", cursive;
+  background-color: #f4dc79;
+  font-size: 20px;
+}
+
+.wrapper {
+  padding-left: 1.5em;
+  margin: auto;
+  position: absolute;
+  width: 35%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  background-color: #fafafa;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.headerText {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.bodyText {
+  margin-top: 115px;
+}
+
+input[type="radio"] {
+  width: 15px;
+}
+.text {
+  padding-top: 0.5rem;
+  display: flex;
+}
+
+.comments {
+  text-align: left;
+}
+
+.select {
+  height: 1em;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.fields {
+  position: relative;
+  font-size: 17px;
+  margin-top: 1em;
+  margin-left: 1em;
+  padding-left: 15px;
+  height: 1.7rem;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+input[type="date"] {
+  margin-top: 1em;
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+select {
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+  position: relative;
+  bottom: 21px;
+}
+
+.headerText {
+  text-align: center;
+  position: absolute;
+}
+
+div.city {
+  padding-top: 1px;
+}
+textarea {
+  width: 240px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  height: 30px;
+}
+button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 25px;
+  margin: 60px 15px 15px 0;
+  border: 1px solid #4e4e4e;
+  border-radius: 13px;
+  height: 50px;
+  line-height: 38px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4e4e4e;
+  background-color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  color: #fff;
+  background-color: #4e4e4e;
+  border-color: #4e4e4e;
+}
+button:active {
+  color: #fff;
+  background-color: #4e4e4e;
+  border-color: #4e4e4e;
+}
